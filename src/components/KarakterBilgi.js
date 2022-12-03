@@ -1,4 +1,5 @@
 import React from "react";
+import KarakterFilmler from "./KarakterFilmler";
 function KarakterBilgi(props){
     const {karakter}=props;
     return (
@@ -9,12 +10,7 @@ function KarakterBilgi(props){
             <p>Mass: {karakter.mass}</p>
             <p>Skin Color: {karakter.skin_color}</p>
             <p>Gender: {karakter.gender}</p>
-            <p className="film">Movies </p>
-            {
-                karakter.films.map((film,index )=> (
-                    <p className="film" key={index}> {film} </p>
-                ))
-            }
+            <KarakterFilmler filmler={karakter.films}/>
         </div>
         
     );
