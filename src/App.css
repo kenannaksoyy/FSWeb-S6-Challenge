@@ -3,14 +3,14 @@
   justify-content: center;
 }
 p{
-  color:red;
+  color: #2146C7;
 }
 .App {
   display: flex;
   flex-direction: column;
   text-align: center;
   width: 1024px;
-  background-color: white;
+  background-color: #FFDCA9;
   margin-top: 60px;
   
 }
@@ -35,11 +35,11 @@ p{
 }
 .karakterlerContainer{
   width: 600px;
-  background-color: white;
+  background-color: #FFDCA9;
   margin-left: 200px;
 }
 .karakterContainer{
-  background-color: grey;
+  background-color: #FCF9BE;
   margin-top: 15px;
   border-radius: 2px;
   border: 2px solid red;
@@ -49,16 +49,16 @@ p{
 }
 .bilgiButton{
   margin-bottom: 3px;
-  background-color: black;
-  border: 2px solid red;
-  color:white;
+  background-color: #3C2317;
+  border: 2px solid #628E90;
+  color:#B4CDE6;
 }
 .karakterOzelliklerContainer{
-  background-color: white;
+  background-color: #E8F3D6;
   width: 400px;
   margin-left: 100px;
 }
 .film{
-  color:black
+  color: #00005C;
 }
 /* write your parent styles in here for your App.js */
