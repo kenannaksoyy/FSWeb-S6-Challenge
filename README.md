@@ -10,10 +10,10 @@ Bu tek başına yapılması gereken bir projedir. Tüm çalışmayı tek başın
 
 ### Proje Kurulumu
 
-- [ ] Forklayarak bir kopyasını oluşturun
-- [ ] Forkunuzu klonlayın
-- [ ] main branch üzerinde çalışın
-- [ ] Push commits: `git push origin main`
+- [x] Forklayarak bir kopyasını oluşturun
+- [x] Forkunuzu klonlayın
+- [x] main branch üzerinde çalışın
+- [x] Push commits: `git push origin main`
 
 ## Proje Talimatları
 
@@ -31,9 +31,9 @@ Minimum Uygulanabilir Ürünü oluşturmak için (MVP) gereklilikler aşağıda 
 
 Bitmiş projeniz aşağıdaki tüm özelliklere sahip olmalıdır:
 
-- [ ] Karakterleri çağırmak için şu endpointi(uç noktası) kullanın `[GET] https://swapi.dev/api/people/` ([msw](https://github.com/mswjs/msw)).
-- [ ] Çekilen karakter listesini bir state e yazın.
-- [ ] Karakterlerinizi DOM'a aktarın:
+- [x] Karakterleri çağırmak için şu endpointi(uç noktası) kullanın `[GET] https://swapi.dev/api/people/` ([msw](https://github.com/mswjs/msw)).
+- [x] Çekilen karakter listesini bir state e yazın.
+- [x] Karakterlerinizi DOM'a aktarın:
 
   1. Her bir karakteri render etmek için 'Karakter' isminde bir React bileşeni oluşturun.
   1. map metoduyla statedeki verileri listeleyin, ve tüm karakterleri Karakter bileşenini kullanarak sayfaya yazdırın.
@@ -56,16 +56,20 @@ Bitmiş projeniz aşağıdaki tüm özelliklere sahip olmalıdır:
 
 Gerekli şeyleri bitirdikten sonra çalışmanızı daha da ileri götürebilirsiniz. Bu hedefler, bu modülde öğrendiğiniz şeyler olabilir veya olmayabilir, ancak az önce çalıştığınız proje üzerine inşa edilirler. Zaman tanıyın, sınırlarınızı zorlayın ve aşağıdaki isteğe bağlı hedeflerden herhangi birini gerçekleştirip gerçekleştiremeyeceğinize bakın:
 
-- [ ] Karakter bileşenini daha karmaşık hale getirin ve birkaç alt bileşene bölün.
-- [ ] Karakterlerle işlenecek film bilgilerini elde etmek için `[GET] https://swapi.dev/api/films/` (msw) uç noktasını kullanın.
-- [ ] State'e eklemeden önce API verilerinden gereksiz bilgileri kaldırmak için ayrı bir modülde bir yardımcı fonksiyon oluşturun.
-- [ ] Stil bileşenleri ile effektler veya animasyonlar oluşturun.
-- [ ] Bir dizi promise'ini çözmek için Promise.all'ı kullanın.
+- [x] Karakter bileşenini daha karmaşık hale getirin ve birkaç alt bileşene bölün.
+- [x] Karakterlerle işlenecek film bilgilerini elde etmek için `[GET] https://swapi.dev/api/films/` (msw) uç noktasını kullanın.
+- [x] State'e eklemeden önce API verilerinden gereksiz bilgileri kaldırmak için ayrı bir modülde bir yardımcı fonksiyon oluşturun.
+- [x] Stil bileşenleri ile effektler veya animasyonlar oluşturun.
+- [x] Bir dizi promise'ini çözmek için Promise.all'ı kullanın.
 
 
 ## Esnek Mülakat Soruları
 
 1. React JS nedir ve hangi sorunları çözer? Yanıtınızı sınıfta tanıtılan kavramlarla ve web'deki kişisel araştırmanızla destekleyin.
-1. Bileşen statelerini tanımlayın.
-1. Propları açıklayın.
-1. Side effektler nelerdir ve bir React bileşenindeki efektleri belirli state veya prop değişiklikleriyle nasıl senkronize edersiniz?
+Yeniden kullanılan kodların kullanımını kolaylaştırır, böylece yeni kod yazma zamanından tasarruf sağlar.
+2. Bileşen statelerini tanımlayın.
+bir bileşenin state nesnesine bir güncelleme planlar. State değiştiğinde, bileşen yeniden render ederek karşılık verir.
+3. Propları açıklayın.
+Props’lar , bir componentten başka bir componente veri aktarımı yapmamızı sağlar.
+4. Side effektler nelerdir ve bir React bileşenindeki efektleri belirli state veya prop değişiklikleriyle nasıl senkronize edersiniz?
+useEffect kullanarak ve sayfanın yeniden güncelenmesi için gereken değeri 2. parametre olarak vererek

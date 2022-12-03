@@ -1,8 +1,64 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+p{
+  color:red;
+}
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  width: 1024px;
+  background-color: white;
+  margin-top: 60px;
+  
 }
 .Header {
-  color: #443e3e;
+  color: black;
   text-shadow: 1px 1px 5px #fff;
+}
+#guncelleButton{
+  border-radius: 2px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color:red;
+  background-color: black;
+  border: 2px solid red;
+  cursor: pointer;
+  width: 150px;
+  margin-left: 430px;
+}
+#gecikmeMesaj{
+  color:red;
+}
+.karakterlerContainer{
+  width: 600px;
+  background-color: white;
+  margin-left: 200px;
+}
+.karakterContainer{
+  background-color: grey;
+  margin-top: 15px;
+  border-radius: 2px;
+  border: 2px solid red;
+}
+.karakterIsım{
+  color: black;
+}
+.bilgiButton{
+  margin-bottom: 3px;
+  background-color: black;
+  border: 2px solid red;
+  color:white;
+}
+.karakterOzelliklerContainer{
+  background-color: white;
+  width: 400px;
+  margin-left: 100px;
+}
+.film{
+  color:black
 }
 /* write your parent styles in here for your App.js */
